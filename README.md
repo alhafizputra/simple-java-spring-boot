@@ -61,8 +61,9 @@ Langkah-langkahnya:
             </properties>
         </action>
     </actions>
+    ```
 6.	Buat Application.java di package belajar.latihan
-
+```
 package belajar.latihan;
 
 import org.springframework.boot.SpringApplication;
