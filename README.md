@@ -26,13 +26,11 @@ Langkah-langkahnya:
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
@@ -57,11 +55,10 @@ Langkah-langkahnya:
             <properties>
                 <exec.args>-classpath %classpath prosia.app.Application</exec.args>
                 <exec.executable>java</exec.executable>
-                
             </properties>
         </action>
     </actions>
-    
+```   
 6.	Buat Application.java di package belajar.latihan
 ```
 package belajar.latihan;
